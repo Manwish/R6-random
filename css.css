@@ -51,6 +51,6 @@ overflow-x:  hidden;
 img{
 	position:relative;
     display: none;
-	width: auto;
+	width: 500px;
 	margin: 0 auto;
 }
