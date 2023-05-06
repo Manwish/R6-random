@@ -12,6 +12,7 @@ overflow-x:  hidden;
 .btn{
 	position:relative;
     display: block;
+	width: 100%;
 	top: 800px;
 	text-align:center;
  }
