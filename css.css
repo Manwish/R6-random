@@ -1,0 +1,48 @@
+html {
+background-image: url(siege.jpg);
+background-repeat: no-repeat;
+background-position: center center;
+background-attachment: fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+overflow:  hidden;
+}
+.btn{
+	position:relative;
+    display: block;
+	top: 800px;
+	left: 46%;
+	/*margin: 0 auto;*/
+ }
+ #attack{
+	background-color: green; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+ }
+ #protect{
+	background-color: red; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+ }
+ #oper {
+	position:relative;
+	display: block;
+	/*left: 46%;*/
+	margin: 0 auto;
+ }
+img{
+	position:relative;
+    display: none;
+	/*left: 46%;*/
+	margin: 0 auto;
+ }
