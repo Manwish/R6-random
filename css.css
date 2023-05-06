@@ -7,14 +7,13 @@ background-attachment: fixed;
 -moz-background-size: cover;
 -o-background-size: cover;
 background-size: cover;
-overflow:  hidden;
+overflow-x:  hidden;
 }
 .btn{
 	position:relative;
     display: block;
 	top: 800px;
-	left: 46%;
-	/*margin: 0 auto;*/
+	text-align:center;
  }
  #attack{
 	background-color: green; 
@@ -37,12 +36,10 @@ overflow:  hidden;
  #oper {
 	position:relative;
 	display: block;
-	/*left: 46%;*/
 	margin: 0 auto;
  }
 img{
 	position:relative;
     display: none;
-	/*left: 46%;*/
-	margin: 0 auto;
+	text-align:center;
  }
