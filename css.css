@@ -36,10 +36,10 @@ overflow-x:  hidden;
  #oper {
 	position:relative;
 	display: block;
-	margin: 0 auto;
+	text-align: center;
  }
 img{
 	position:relative;
     display: none;
-	text-align:center;
+	margin: 0 auto;
  }
