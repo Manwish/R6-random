@@ -46,7 +46,7 @@ overflow-x:  hidden;
 	margin: 0 auto;
  }
 @media only screen and (max-device-width: 480px){
-#imgOper{
+.imgOper{
 	width: 100%;
 	}
 }
