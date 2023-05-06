@@ -45,8 +45,13 @@ overflow-x:  hidden;
 	display: block;
 	margin: 0 auto;
  }
+@media only screen and (max-device-width: 480px){
+#imgOper{
+	width: 100%;
+	}
+}
 img{
 	position:relative;
     display: none;
 	margin: 0 auto;
- }
+}
