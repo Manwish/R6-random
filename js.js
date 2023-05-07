@@ -14,26 +14,7 @@ function randomOper(min,max,letter){
 	operNow = letter+oper;	
 	if (document.getElementById('oper').style.display!="none") document.getElementById('oper').style.display="none";
 	else {document.getElementById(lastOper).style.display="none";
-	if (typeof pastOper7 !== 'undefined' && ((typeof pastOper8 !== 'undefined' && pastOper8 != pastOper7) || typeof pastOper8 === 'undefined')) pastOper8 = pastOper7;	
-	if (typeof pastOper6 !== 'undefined' && ((typeof pastOper7 !== 'undefined' && pastOper7 != pastOper6) || typeof pastOper7 === 'undefined') && ((typeof pastOper8 !== 'undefined' && pastOper8 != pastOper6) || typeof pastOper8 === 'undefined')) pastOper7 = pastOper6;	
-	if (typeof pastOper5 !== 'undefined' && ((typeof pastOper6 !== 'undefined' && pastOper6 != pastOper5) || typeof pastOper6 === 'undefined') && ((typeof pastOper7 !== 'undefined' && pastOper7 != pastOper5) || typeof pastOper7 === 'undefined') && ((typeof pastOper8 !== 'undefined' && pastOper8 != pastOper5) || typeof pastOper8 === 'undefined')) pastOper6 = pastOper5;
-	if (typeof pastOper4 !== 'undefined' && ((typeof pastOper5 !== 'undefined' && pastOper5 != pastOper4) || typeof pastOper5 === 'undefined') &&
-	((typeof pastOper6 !== 'undefined' && pastOper6 != pastOper4) || typeof pastOper6 === 'undefined') && ((typeof pastOper7 !== 'undefined' && pastOper7 != pastOper4) || typeof pastOper7 === 'undefined') && ((typeof pastOper8 !== 'undefined' && pastOper8 != pastOper4) || typeof pastOper8 === 'undefined')) pastOper5 = pastOper4;
-	if (typeof pastOper3 !== 'undefined' && ((typeof pastOper4 !== 'undefined' && pastOper4 != pastOper3) || typeof pastOper4 === 'undefined') && 
-	((typeof pastOper5 !== 'undefined' && pastOper5 != pastOper3) || typeof pastOper5 === 'undefined') && ((typeof pastOper6 !== 'undefined' && pastOper6 != pastOper3) || typeof pastOper6 === 'undefined') &&
-	((typeof pastOper7 !== 'undefined' && pastOper7 != pastOper3) || typeof pastOper7 === 'undefined') && ((typeof pastOper8 !== 'undefined' && pastOper8 != pastOper3) || typeof pastOper8 === 'undefined')) pastOper4 = pastOper3;
-	if (typeof pastOper2 !== 'undefined' && ((typeof pastOper3 !== 'undefined' && pastOper3 != pastOper2) || typeof pastOper3 === 'undefined') && ((typeof pastOper4 !== 'undefined' && pastOper4 != pastOper2) || typeof pastOper4 === 'undefined') && 
-	((typeof pastOper5 !== 'undefined' && pastOper5 != pastOper2) || typeof pastOper5 === 'undefined') && ((typeof pastOper6 !== 'undefined' && pastOper6 != pastOper2) || typeof pastOper6 === 'undefined') &&
-	((typeof pastOper7 !== 'undefined' && pastOper7 != pastOper2) || typeof pastOper7 === 'undefined') && ((typeof pastOper8 !== 'undefined' && pastOper8 != pastOper2) || typeof pastOper8 === 'undefined')) pastOper3 = pastOper2;
-	if (typeof pastOper1 !== 'undefined' && ((typeof pastOper2 !== 'undefined' && pastOper2 != pastOper1) || typeof pastOper2 === 'undefined') && ((typeof pastOper3 !== 'undefined' && pastOper3 != pastOper1) || typeof pastOper3 === 'undefined') &&
-	((typeof pastOper4 !== 'undefined' && pastOper4 != pastOper1) || typeof pastOper4 === 'undefined') && ((typeof pastOper5 !== 'undefined' && pastOper5 != pastOper1) || typeof pastOper5 === 'undefined') && ((typeof pastOper6 !== 'undefined' && pastOper6 != pastOper1) || typeof pastOper6 === 'undefined') &&
-	((typeof pastOper7 !== 'undefined' && pastOper7 != pastOper1) || typeof pastOper7 === 'undefined') && ((typeof pastOper8 !== 'undefined' && pastOper8 != pastOper1) || typeof pastOper8 === 'undefined')) pastOper2 = pastOper1;
-	if (typeof lastOper !== 'undefined' && ((typeof pastOper1 !== 'undefined' && pastOper1 != lastOper) || typeof pastOper1 === 'undefined') && ((typeof pastOper2 !== 'undefined' && pastOper2 != lastOper) || typeof pastOper2 === 'undefined') && ((typeof pastOper3 !== 'undefined' && pastOper3 != lastOper) || typeof pastOper3 === 'undefined') &&
-	((typeof pastOper4 !== 'undefined' && pastOper4 != lastOper) || typeof pastOper4 === 'undefined') && ((typeof pastOper5 !== 'undefined' && pastOper5 != lastOper) || typeof pastOper5 === 'undefined') && ((typeof pastOper6 !== 'undefined' && pastOper6 != lastOper) || typeof pastOper6 === 'undefined') &&
-	((typeof pastOper7 !== 'undefined' && pastOper7 != lastOper) || typeof pastOper7 === 'undefined') && ((typeof pastOper8 !== 'undefined' && pastOper8 != lastOper) || typeof pastOper8 === 'undefined')) pastOper1 = lastOper;
-	if (lastOper == operNow || (typeof pastOper1 !== 'undefined' && pastOper1 == operNow) || (typeof pastOper2 !== 'undefined' && pastOper2 == operNow) || (typeof pastOper3 !== 'undefined' && pastOper3 == operNow) ||
-	(typeof pastOper4 !== 'undefined' && pastOper4 == operNow) || (typeof pastOper5 !== 'undefined' && pastOper5 == operNow) || (typeof pastOper6 !== 'undefined' && pastOper6 == operNow) ||
-	(typeof pastOper7 !== 'undefined' && pastOper7 == operNow) || (typeof pastOper8 !== 'undefined' && pastOper8 == operNow)) randomOper(min,(max/1000000),letter);
+	if (lastOper == operNow) randomOper(min,(max/1000000),letter);
 	}
 	switch(oper){
 		case 1:	document.getElementById(letter+'1').style.display="block"; break;
