@@ -1,0 +1,26 @@
+html {
+background-image: url(wall.jpg);
+background-repeat: no-repeat;
+background-position: center center;
+background-attachment: fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+-webkit-appearance: none;
+-moz-appearance:none;
+background-size: cover;
+overflow-x:  hidden;
+}
+.main{
+	display: flex; 
+	flex-direction: column; 
+	flex-wrap: wrap; 
+	position:relative;
+}
+img{
+	position:relative;
+    display: block;
+	width: 500px;
+	height: 327.717px;
+	margin: 0 auto;
+}

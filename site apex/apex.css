@@ -1,0 +1,69 @@
+html {
+background-image: url(Wall.jpg);
+background-repeat: no-repeat;
+background-position: center center;
+background-attachment: fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+-webkit-appearance: none;
+-moz-appearance:none;
+background-size: cover;
+overflow-x:  hidden;
+}
+.mainCl{
+	display: flex; 
+	flex-direction: column; 
+	flex-wrap: wrap; 
+	position:relative;
+}
+.btn{
+	position:relative;
+    display: block;
+	width: auto;
+	top: 50px;
+	text-align:center;
+ }
+ #assault{
+	background-color: red;
+ }
+ #skirmisher{
+	background-color: #DC143C; 
+ }
+  #recon{
+	background-color: #556B2F; 
+ }
+  #support{
+	background-color: #007FFF; 
+ }
+  #controller{
+	background-color: #008B8B; 
+ }
+  #all_classes{
+	background-color: #DAA520; 
+ }
+ #assault,#skirmisher,#recon,#support,#controller,#all_classes{
+	border-radius: 6px;
+    color: white;
+    padding: 10px 52px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+	border: none;
+	cursor: pointer;
+	transition: transform 0.2s ease;
+	box-shadow: 0 5px 10px rgba (0, 0, 0, 0.1);
+ }
+ #assault:active,#skirmisher:active,#recon:active,#support:active,#controller:active,#all_classes:active{
+	transform: scale(0.96);
+ }
+ #none {
+	display: block;
+ }
+img{
+	position:relative;
+    display: none;
+	width: 500px;
+	height: 427.717px;
+	margin: 0 auto;
+}
