@@ -23,26 +23,26 @@ overflow-x:  hidden;
 	width: auto;
 	top: 50px;
 	text-align:center;
- }
- #assault{
+}
+#assault{
 	background-color: red;
- }
- #skirmisher{
+}
+#skirmisher{
 	background-color: #DC143C; 
- }
-  #recon{
+}
+#recon{
 	background-color: #556B2F; 
- }
-  #support{
+}
+#support{
 	background-color: #007FFF; 
- }
-  #controller{
+}
+#controller{
 	background-color: #008B8B; 
- }
-  #all_classes{
+}
+#all_classes{
 	background-color: #DAA520; 
- }
- #assault,#skirmisher,#recon,#support,#controller,#all_classes{
+}
+#assault,#skirmisher,#recon,#support,#controller,#all_classes,#return{
 	border-radius: 6px;
     color: white;
     padding: 10px 52px;
@@ -54,10 +54,17 @@ overflow-x:  hidden;
 	transition: transform 0.2s ease;
 	box-shadow: 0 5px 10px rgba (0, 0, 0, 0.1);
  }
- #assault:active,#skirmisher:active,#recon:active,#support:active,#controller:active,#all_classes:active{
+#return{
+	position:relative;
+	display: block;
+	background-color: #191970; 
+	width: 50px;
+	margin: 0 auto;
+}
+#assault:active,#skirmisher:active,#recon:active,#support:active,#controller:active,#all_classes:active,#return:active{
 	transform: scale(0.96);
  }
- #none {
+#none {
 	display: block;
  }
 img{
