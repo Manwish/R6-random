@@ -30,7 +30,7 @@ overflow-x:  hidden;
  #protect{
 	background-color: red; 
  }
- #attack,#protect{
+ #attack,#protect,#return{
 	border-radius: 6px;
     color: white;
     padding: 10px 52px;
@@ -42,7 +42,14 @@ overflow-x:  hidden;
 	transition: transform 0.2s ease;
 	box-shadow: 0 5px 10px rgba (0, 0, 0, 0.1);
  }
- #attack:active,#protect:active{
+  #return{
+	position:relative;
+	display: block;
+	background-color: #191970; 
+	width: 50px;
+	margin: 0 auto;
+}
+ #attack:active,#protect:active,#return:active{
 	transform: scale(0.96);
  }
  #oper {
