@@ -7,7 +7,7 @@ function protect(){
 }
 
 function randomOper(min,max,letter){
-	oper = Math.floor(Math.random()*(max-min) + min)
+	oper = Math.floor(Math.random() * max + min)
 	operNow = letter+oper;	
 	if (document.getElementById('oper').style.display!="none") document.getElementById('oper').style.display="none";
 	else {document.getElementById(lastOper).style.display="none";
