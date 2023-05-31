@@ -3,7 +3,7 @@ function attack(){
 }
 
 function protect(){
-	randomOper(1,33,'b');
+	randomOper(1,34,'b');
 }
 
 function randomOper(min,max,letter){
