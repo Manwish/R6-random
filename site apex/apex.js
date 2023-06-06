@@ -23,7 +23,7 @@ function all_classes(){
 }
 
 function randomOper(min,max,letter){
-	oper = Math.floor(Math.random()*(max-min) + min)
+	oper = Math.floor(Math.random()*max + min)
 	operNow = letter+oper;	
 	if (document.getElementById('none').style.display!="none") document.getElementById('none').style.display="none";
 	else {document.getElementById(lastOper).style.display="none";
