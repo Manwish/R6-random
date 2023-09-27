@@ -1,5 +1,5 @@
 function attack(){
-	randomOper(1,34,'a');
+	randomOper(1,35,'a');
 }
 
 function protect(){
