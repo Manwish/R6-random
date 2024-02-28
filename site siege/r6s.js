@@ -1,9 +1,9 @@
 function attack(){
-	randomOper(1,35,'a');
+	randomOper(1,36,'a');
 }
 
 function protect(){
-	randomOper(1,34,'b');
+	randomOper(1,35,'b');
 }
 
 function randomOper(min,max,letter){
