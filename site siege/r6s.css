@@ -55,6 +55,10 @@ overflow-x:  hidden;
  #oper {
 	display: block;
  }
+ #b35 {
+	width: 600px;
+	height: 427.717px;
+ }
 img{
 	position:relative;
     display: none;
